@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBICES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dadadafa;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 0 20px;
+            height: 50px;
+            font-weight: bold;
+
+            
+        }
+
+        header {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .nossos-produtos {
+            background-color: #000000;
+            color: #fff;
+            
+            list-style-type: none;
+            align-items: center;
+            padding: 10px;
+            height: 30px;
+            text-align: center;
+            margin: 0;
+            position: relative;
+
+        }
+
+        li {
+            position: relative;
+        }
+
+        a {
+            color:rgb(0, 0, 0);
+            text-decoration: none;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        
+
+        .container {
+            max-width: 500px 500;
+            margin: 0 auto;
+            padding: 50px;
+            border-radius: 10px;
+
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .product img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product-title {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .product-price {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        #meuBotao {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 40px;
+            text-decoration: none; 
+            border-radius: 5px;
+        
+        }
+    
+        #meuBotao:hover {
+            background-color: #000000;
+        }
+
+        footer {
+        background-color: #000000;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        }
+
+        .rodape-container {
+            display: flex;
+            justify-content: space-around;
+            max-width: 800px;
+            margin: 0 auto;
+            }
+
+        .rodape-info {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        
+        p {
+            margin: 0;
+        }
+
+        .social-link {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .social-link:hover {
+            text-decoration: underline;
+        }
+
+        .direitos-autorais {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h4>COMPROU, NÃO GOSTOU? DEVOLVA GRATÍS</h1>
+    </header>
+
+    <nav >
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/pbices_/">
+                    <img  src="https://static.vecteezy.com/system/resources/previews/018/930/473/original/instagram-logo-instagram-icon-transparent-free-png.png" alt="Logo do Site" width="100px">
+                </a>
+            </li>
+        
+            <li>
+                <a href="pbices.html">PBICES</a>
+            </li>
+
+            <li>
+                <a href="https://wa.me/5511910803147">
+                    <img  src="https://cdn-icons-png.flaticon.com/512/134/134735.png" alt="Logo do Site" width="46px">
+                </a>
+            </li>
+        
+        </ul>
+    </nav>
+
+    <img src="https://live.staticflickr.com/65535/53205183147_d0fc29c8e2_b.jpg" width="100%"></img>
+
+    
+    <h3 class="nossos-produtos">Nossos Produtos</h3>
+  
+    <div class="container">
+        <div class="product">
+            <img src="https://uzistore.com.br/cdn/shop/products/Corrente-cordao-colar-Cuban-Miami-Ice-cravejada-prata_1.jpg?v=1679346674" alt="Prduto 1">
+            <h2 class="product-title">Corrente Cuban</h2>
+            <p class="product-price">R$ 277,99</p>
+            <a  id="meuBotao" href="pagamento.html">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://uzistore.com.br/cdn/shop/products/relogio-full-ice-cravejado-dourado-1_800x.jpg?v=1679327375">
+            <h2 class="product-title">Relógio Full (Ice Cravejado)</h2>
+            <p class="product-price">R$ 299,98</p>
+            <a  id="meuBotao" href="pagamento.html">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://down-br.img.susercontent.com/file/14fe91ea0fc4f486491815180014b195" alt="Produto 3">
+            <h2 class="product-title">Brinco Masculino ice</h2>
+            <p class="product-price">R$ 97,00</p>
+            <a  id="meuBotao" href="pagamento.html">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://icedoutlet.com.br/cdn/shop/products/H7c26f69116004c23b8aea8749d5ad0b9a.jpg?v=1655299999" alt="Produto 4">
+            <h2 class="product-title">Corrente Cubana Gengar</h2>
+            <p class="product-price">R$ 321,89</p>
+            <a  id="meuBotao" href="pagamento.html">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://theiceking.com.br/cdn/shop/files/S385ea91643914ae3af55e53de515ab86C_800x.jpg?v=1690678451" alt="Produto 5">
+            <h2 class="product-title">Relógio cassio</h2>
+            <p class="product-price">R$ 999,89  </p>
+
+            <a  id="meuBotao" href="pagamento.html">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="https://www.xogangbrazil.com/cdn/shop/products/86026DB6-C286-4359-8547-32CB9F93D0CA.jpg?v=1642793950" alt="Produto 6">
+            <h2 class="product-title">Corrente Cuban Ice M4</h2>
+            <p class="product-price">R$ 199,89  </p>
+
+            <a  id="meuBotao" href="pagamento.html">Comprar</a>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="rodape-container">
+            <div class="rodape-info">
+                <h3>Contato</h3>
+                <p>Email: 229512023@eniac.edu.br</p>
+                <p>Telefone: (11) 91080-3147</p>
+            </div>
+            <div class="rodape-info">
+                <h3>Redes Sociais</h3>
+                <a href="https://www.instagram.com/pbices_/" class="social-link">Instagram</a>
+            </div>
+        </div>
+        <div class="direitos-autorais">
+            &copy; 2023 PBICES. Todos os direitos reservados.
+        </div>
+    </footer>
+</body>
+</html>
