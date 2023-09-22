@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Concluído</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #000000;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        #meuBotao {
+            background-color: #000000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none; 
+            border-radius: 5px;
+        }
+    
+        #meuBotao:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAb1JREFUSEvllstNQ0EMRW8WdMEi9AGCVALUAHtgDzUk1MECJOgDFvQButH44bHufN4ElAWWUCLi8bE9/swCe5LFnrgYAZ8BWCaH+fmSvn8A4F+X9IIJOwfgoQpAJy57HOgBrwFcdIXxo7QBcFdzoAZmGglllCPCtK9K8BKY0PcRmjhzpOAKTOizK6Bd+TJyBb4FcLMrLZznfdPuJBH8mymOvmcpj+BStPSYlWoFZ308JzE8z1bbSgR/CUu8I3protqLOtY+1vPKuSlqD66l2aeJ1e6NRsfoIOF0MMLZXttJ58EcElRWQuVHAKdimDCF/C0KCzTOAKaa+hn4L6o5OiPBtYjnFFFNd2orn2qmhYPDC1NM5RHhUokzXt6xKq7qvG14ozpkCjS2U6xY2o5TRy2NAwBPzhFVL1n19wyQGLUy6p0rtWUWgBqZakF4b1tgnldZyVhzloTptsDqbptLwq5J3fUoWE224mNP7eQRsISqJeE7JMJtXh8DeA2tdALgLc1me7kUoS2w30YsFluN/P8VgPukcA3gIX236ZetQNXvPa9MnmP0NOpfEYfJ4GfoX0Kb7+te8MjIrJ75f+BvQ/ZoH3expyYAAAAASUVORK5CYII="/>
+    <h1>Pedido Concluído</h1>
+    <p>O seu pedido foi concluído e será enviado para analíse. Em breve, você receberá uma confirmação por e-mail.</p>
+
+    <a id="meuBotao" href="pbices.html">Voltar a PBICES</a>
+</body>
+</html>
